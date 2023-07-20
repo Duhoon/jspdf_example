@@ -4,9 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "build": "webpack --watch"
   },
   "dependencies": {
     "jspdf": "^2.5.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
   }
 }
